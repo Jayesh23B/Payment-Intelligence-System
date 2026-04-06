@@ -66,7 +66,13 @@ Database     ML Model
 * **Libraries:** Pandas, NumPy
 
 ---
+## 💡 Key Innovation
 
+This project uses an LLM agent to dynamically decide:
+- When to query data (SQL Tool)
+- When to predict outcomes (ML Tool)
+
+This creates an intelligent decision-making system.
 ##  Example Use Cases
 
 *  "Show top merchants by transaction volume"
@@ -120,7 +126,12 @@ payment-intelligence-system/
 ├── app.py                # Main entry point
 └── requirements.txt
 ```
+##  Entry Point
 
+Run the system using:
+
+```bash
+python app.py
 ---
 
 ##  Impact
@@ -147,3 +158,4 @@ payment-intelligence-system/
 Aspiring AI/Data Engineer passionate about building intelligent systems using AI & data-driven solutions.
 
 ---
+
