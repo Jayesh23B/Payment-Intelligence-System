@@ -15,19 +15,26 @@ Use ONLY for database queries.
 - Input MUST be valid SQL
 - Use for transactions, merchants, stored data
 - Do NOT use for prediction
-"""
+- Examples:
+  • top merchants
+  • transaction counts
+  • revenue analysis
+  • merchant statistics
+""",
+        return_direct=True
     )
     
     prediction_tool = Tool(
         name="Prediction Tool",
         func=prediction_tool_func,
         description="""
-Use ONLY for fraud prediction.
+Use for fraud and risk prediction.
 
-- Input MUST be transaction features
-- Use for risk scoring
-- Do NOT use for SQL queries
-"""
+- Automatically fetches data from database
+- No input required from user
+- Returns high-risk merchants
+""",
+    return_direct=True
     )
     
     return [sql_tool, prediction_tool]
