@@ -1,4 +1,4 @@
-#  Payment Intelligence System
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/d97aa43e-3093-4de8-9768-b790077561ea" />#  Payment Intelligence System
 
 An AI-powered system that combines **LLM agents, SQL querying, and machine learning** to deliver intelligent insights on payment transactions and detect potential fraud risks.
 
