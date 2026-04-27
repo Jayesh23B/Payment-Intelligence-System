@@ -14,8 +14,6 @@ An intelligent **LLM Agent (LangChain-based)** interprets user queries and dynam
 * Predict fraud risk using a **Machine Learning Model**
 
 ---
-![System Architecture](![Uploading AI-driven decision system architecture diagram.png…]()
-)
 
 ##  Key Features
 
